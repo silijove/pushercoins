@@ -1,3 +1,4 @@
+import React, {Component} from 'react';
 import App from './App';
 import HttpsRedirect from 'react-https-redirect';
 
@@ -11,3 +12,5 @@ class HttpsApp extends React.Component {
         );
     }
 }
+
+export default HttpsApp;
